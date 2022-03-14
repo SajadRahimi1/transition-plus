@@ -1,39 +1,61 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# transition plus 
+You can use this package for transition between screens with interesting way with amazing animation.
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
+## Demo of scale transition
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
+<img src="https://github.com/SajadRahimi1/transition-plus/raw/main/record/record.gif" width="340" height="640" title="Screen Shoot">
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+## How to use it
 
-## Features
+First of all you need to add it to pubspec.yml .
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+```yaml
+dependencies:
+  transition_plus: 0.0.12
+```
+<br/><br/>
 
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
+Then import it to your class
 ```dart
-const like = 'sample';
+import 'package:transition_plus/transition_plus.dart';
 ```
 
-## Additional information
+Now you can use it 🐱‍🏍.
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+```dart
+Navigator.push(context, ScaleTransition1(page: SecondPage())),
+```
+<br/>
+
+## Diffrent animation
+
+By default transition is start from center of screen. You can change it like this
+
+```dart
+Navigator.push(context, ScaleTransition1(page: SecondPage(), type: ScaleTrasitionTypes.bottom)),
+```
+
+## List of animation type for scale transition
+
+```dart
+  // trasition that start from bottom to top
+  bottom
+
+  // trasition that start from top to bottom
+  top
+
+  // trasition that start from bottom left
+  bottomLeft
+
+  // trasition that start from bottom right
+  bottomRight
+
+  // trasition that start from center
+  center
+
+  // trasition that start from right
+  right
+
+  // trasition that start from left
+  left
+```

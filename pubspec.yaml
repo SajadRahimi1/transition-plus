@@ -1,6 +1,6 @@
 name: transition_plus
 description: Flutter package that help you to transition between screens with interesting way.
-version: 0.0.1
+version: 0.0.12
 homepage: https://github.com/SajadRahimi1/transition-plus
 
 environment:
