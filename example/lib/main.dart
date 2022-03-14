@@ -56,9 +56,9 @@ class Home extends StatelessWidget {
                 onPressed: () => Navigator.push(
                     context,
                     ScaleTransition1(
-                        page: SecondPage(),
-                        type: ScaleTrasitionTypes.center,
-                        startDuration: const Duration(seconds: 5))),
+                      page: SecondPage(),
+                      type: ScaleTrasitionTypes.center,
+                    )),
                 child: const Text('TAP TO VIEW SCALE CENTER TRANSITION')),
             ElevatedButton(
                 onPressed: () => Navigator.push(
