@@ -13,7 +13,6 @@ First of all you need to add it to pubspec.yml .
 dependencies:
   transition_plus: 0.0.12
 ```
-<br/><br/>
 
 Then import it to your class
 ```dart
@@ -25,7 +24,7 @@ Now you can use it 🐱‍🏍.
 ```dart
 Navigator.push(context, ScaleTransition1(page: SecondPage())),
 ```
-<br/>
+
 
 ## Diffrent animation
 
