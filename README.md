@@ -1,7 +1,7 @@
 # transition plus 
 You can use this package for transition between screens with interesting way with amazing animation.
 
-## Demo of scale transition
+## Video of transtion_plus
 
 <img src="https://github.com/SajadRahimi1/transition-plus/raw/main/record/record.gif" width="340" height="640" title="Screen Shoot">
 
