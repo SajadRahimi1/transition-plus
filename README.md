@@ -19,7 +19,7 @@ Then import it to your class
 import 'package:transition_plus/transition_plus.dart';
 ```
 
-Now you can use it 🐱‍🏍.
+Now you can use it like this
 
 ```dart
 Navigator.push(context, ScaleTransition1(page: SecondPage())),
